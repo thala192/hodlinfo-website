@@ -4,7 +4,6 @@ const connectDb = require("./src/config/db");
 
 const { getTickers } = require("./src/controllers/tickerController");
 require("dotenv").config();
-// Ensure dotenv is configured to load environment variables
 connectDb();
 
 const app = express();
