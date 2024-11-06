@@ -5,10 +5,8 @@ const connectDb = require("./src/config/db");
 const { getTickers } = require("./src/controllers/tickerController");
 require("dotenv").config();
 connectDb();
-
 const app = express();
 const port = process.env.PORT || 4000;
-
 app.use(express.static("src/view"));
 
 app.get("/", (req, res) => {
