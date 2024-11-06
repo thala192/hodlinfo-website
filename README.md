@@ -23,10 +23,10 @@ The Hodlinfo app retrieves cryptocurrency ticker data from an external API, stor
 
 Include screenshots of the Hodlinfo app to provide a visual representation of its features and interface.
 
+### dark
+
+![Homepage](/screenshots/dark.png)
+
 ### light
 
-![Homepage](screenshots/Screenshot_white.png)
-
-### Dark
-
-![Ticker Information](screenshots/Screenshot_black.png)
+![Ticker Information](screenshots/light.png)
